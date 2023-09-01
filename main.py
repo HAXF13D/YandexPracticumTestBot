@@ -130,7 +130,7 @@ async def link(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
         parse_mode="MarkdownV2",
-        text="Исходный код данного бота находится [тут](https://github.com/HAXF13D?tab=repositories/)\.",
+        text="Исходный код данного бота находится [тут](https://github.com/HAXF13D/YandexPracticumTestBot)\.",
         disable_web_page_preview=True,
         reply_markup=chosen_kb
     )
